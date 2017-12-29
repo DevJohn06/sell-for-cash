@@ -1,0 +1,99 @@
+.section--herobanner{
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+
+.header--herotitle{
+    color: #E88213;
+    font-size: 4rem;
+}
+
+.content--icons-herobanner {
+    display: inline-block;
+}
+.icon--herobanner {
+    font-size: 50px !important;
+}
+
+.span--herobanner {
+    font-family: raleway-semibold;
+}
+
+.icon--text-width {
+   max-width: 300px;
+}
+
+.icon--content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__container { 
+    margin: 0 auto;
+}
+
+.icon--no-padding {
+    padding: 0 !important;
+}
+
+/* about section */
+
+.section__header--about {
+    font-size: 140px;
+    color: #336EB5;
+    font-family: raleway-bold;
+}
+
+.section__text--about {
+    font-size: 30px;
+    font-family: raleway-semibold;
+    color: black;
+}
+
+/* cta */
+.header--cta {
+    position: relative;
+    color: white;
+    z-index: 100;
+    font-size: 5rem;
+}
+
+.section--cta {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+}
+
+/* services */
+.section__header--services {
+    font-size: 50px;
+    color: #336EB5;
+    font-family: raleway-bold;
+}
+
+.section__text--services {
+    font-size: 25px;
+    font-family: raleway-semibold;
+    color: black;
+}
+
+/* footer */
+.section--footer { 
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #9FD813;
+}
+
+.footer--text {
+    width: 80%;
+    font-size: 25px;
+    font-family: raleway-semibold;
+}
+
+

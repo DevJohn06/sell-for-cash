@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="assets/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/inputstyle.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/plugins/datetimepicker/build/jquery.datetimepicker.min.css">
+
+    <title>Sell for cash</title>
+
+    <!-- scripts -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/plugins/slick/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="uk-navbar-container nav" uk-scrollspy="cls:nav--transparent" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav nav__ul--left">
+                <li class="uk-animation-top">
+                    <a class="logo" href="">
+                        <img class="" src="assets/img/logo.png" alt="logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav nav__ul nav__ul--right" uk-scrollspy-nav="closest: li; scroll:true; offset:40; overflow:false;">
+                <li class="nav__list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#about-us">About us</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#services">Services</a>
+                </li>
+                <li class="nav__list">
+                    <a href="#section-contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Herobanner -->
+    <section id="home" class="space--top-5 section overlay filter section--herobanner" style="background-image: url('assets/img/bkg1.jpg')">
+        <div class="uk-container">
+            <div class="content content--center content--index-1">
+
+                <div>
+                    <h1 class="header--herotitle">
+                        Sell your home for cash
+                    </h1>
+                    <h2 class="space--no-margin text--white">
+                        Here's how we do it:
+                    </h2>
+                </div>
+
+                <div class="icon--content text--white space--top-2" uk-grid>
+                    <div class="icon--no-padding content--center">
+                        <i class="icon--herobanner fa fa-envelope"></i>
+                        <div class="icon--text-width space--top-1">
+                            <span class="span--herobanner">Message us</span>
+                        </div>
+                    </div>
+                    <div class="icon--no-padding content--center">
+                        <i class="icon--herobanner fa fa-file-text"></i>
+                        <div class="icon--text-width space--top-1">
+                            <span class="span--herobanner">Give you an offer </br> within 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="icon--no-padding content--center">
+                        <i class="icon--herobanner fa fa-dollar"></i>
+                        <div class="icon--text-width space--top-1">
+                            <span class="span--herobanner">Close fast</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- form -->
+                <div class="form__container">
+                    <form action="" class="space--top-3">
+                        <div class="uk-grid-small" uk-grid>
+                            <div class="uk-width-1-5">
+                                <div class="content--center">
+                                    <span class="input input--kohana">
+                                        <input class="input__field--section-home input__field input__field--kohana" type="text" id="fname" />
+                                        <label class="input__label--section-home input__label input__label--kohana" for="fname">
+                                            <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">First name</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-5">
+                                <div class="content--center">
+                                    <span class="input input--kohana">
+                                        <input class="input__field--section-home input__field input__field--kohana" type="text" id="lname" />
+                                        <label class="input__label--section-home input__label input__label--kohana" for="lname">
+                                            <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">Last name</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-5">
+                                <div class="content--center">
+                                    <span class="input input--kohana">
+                                        <input class="input__field--section-home input__field input__field--kohana" type="text" id="phone" />
+                                        <label class="input__label--section-home input__label input__label--kohana" for="phone">
+                                            <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">Phone</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-5">
+                                <div class="content--center">
+                                    <span class="input input--kohana">
+                                        <input class="input__field--section-home input__field input__field--kohana" type="text" id="email" />
+                                        <label class="input__label--section-home input__label input__label--kohana" for="email">
+                                            <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">Email</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="uk-width-1-5">
+                                <div class="content--center">
+                                    <span class="input input--kohana">
+                                        <input class="input__field--section-home input__field input__field--kohana" type="text" id="address" />
+                                        <label class="input__label--section-home input__label input__label--kohana" for="address">
+                                            <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                            <span class="input__label-content input__label-content--kohana">Property address</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-center space--top-5">
+                            <input class="button button--blue uk-button-primary" type="submit">
+                        </div>
+                    </form>
+                </div>
+
+
+                <!-- end form -->
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+
+    <section id="about-us" class="section">
+        <div class="content uk-container">
+            <div class="uk-grid-large" uk-grid>
+                <div class="uk-width-1-2">
+                    <h1 class="section__header--about">What is sell for cash?</h1>
+                </div>
+                <div class="uk-width-1-2">
+                    <article class="space--top-3">
+                        <p class="section__text--about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit blanditiis animi facere enim
+                            odit id aperiam, porro laboriosam in eaque saepe quo nam doloremque illo quisquam, vel molestiae
+                            dolorem natus.
+                        </p>
+                    </article>
+                    <div class="space--top-2">
+                        <a href="" class="button button--blue uk-button-primary">Contact us!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about us -->
+
+    <!-- cta -->
+    <section class="section section--cta overlay filter" style="background-image: url('assets/img/bkg2.jpg')">
+        <div class="content uk-container">
+            <div class="content-index-1 content--center ">
+                <div class="content--center">
+                    <h1 class="header--cta">
+                        Lorem ipsum Dolor sit amet, Cras in volutpat massa.
+                    </h1>
+                </div>
+                <div class="space--top-2">
+                    <a href="" class="button button--blue uk-button-primary">Contact us!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end cta -->
+
+    <!-- services -->
+    <section id="services" class="section">
+        <div class="slick-slider">
+            <div>
+                <!-- <div class="uk-grid-large" uk-grid>
+                    <div class="uk-width-1-2 uk-overflow-hidden">
+                        <img src="assets/img/bkg4.jpg" alt="" class="img" uk-scrollspy="cls:uk-animation-kenburns uk-animation-reverse; repeat: true">
+                    </div>
+                    <div class="uk-width-1-2 section--background-services" style="background: url('assets/img/about.jpg')">
+                        <div class="content uk-container section__inner--services">
+                            <h1 class="section__header--services">
+                                Interior design
+                            </h1>
+                            <div class="section__text--services">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad enim porro incidunt magni fugit amet necessitatibus architecto
+                                fuga accusamus. Ex aspernatur veniam corporis optio impedit cumque saepe reiciendis cupiditate?
+                                Incidunt?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+                <div>
+                    <div class="uk-grid-large" uk-grid>
+                        <div class="uk-width-1-2 uk-overflow-hidden">
+                            <img src="assets/img/bkg3.jpg" alt="" class="img" uk-scrollspy="cls:uk-animation-kenburns uk-animation-reverse; repeat: true">
+                        </div>
+                        <div class="uk-width-1-2 section--background-services overlay filter-white" style="background: url('assets/img/about.jpg')">
+                            <div class="content uk-container section__inner--services">
+                                <h1 class="section__header--services">
+                                    Our services
+                                </h1>
+                                <div class="section__text--services">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad enim porro incidunt magni fugit amet necessitatibus architecto
+                                    fuga accusamus. Ex aspernatur veniam corporis optio impedit cumque saepe reiciendis cupiditate?
+                                    Incidunt?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- services end -->
+
+    <!-- contact -->
+    <section id="section-contact" class="section section--contact">
+        <div class="space--top-4 uk-container">
+            <div class="uk-grid-large" uk-grid>
+                <div class="uk-width-1-2">
+                    <h1 class="section__header--contact">
+                        Contact us
+                    </h1>
+                </div>
+                <div class="uk-width-1-2 align-right">
+                    <div>
+                        <a href="#" class="section__info">
+                            202-869-4330
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="section__info">
+                            info@sellforcash.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- form start -->
+        <form class="form--contact" action="">
+            <div class="uk-grid-large" uk-grid>
+                <div class="uk-width-1-1@m uk-width-1-2@l content--center">
+                    <div class="uk-grid-collapse" uk-grid>
+                        <div class="uk-width-1-2@m uk-width-1-2@l">
+                            <span class="input input--kohana">
+                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="firstname" />
+                                <label class="input__label input__label--kohana" for="firstname">
+                                    <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                    <span class="input__label-content input__label-content--kohana">Name</span>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-2@l">
+                            <span class="input input--kohana">
+                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="lastname" />
+                                <label class="input__label input__label--kohana" for="lastname">
+                                    <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                    <span class="input__label-content input__label-content--kohana">Last name</span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="space--top-2">
+                        <span class="input input--kohana">
+                            <input class="input__field--section-contact input__field input__field--kohana" type="email" id="email" />
+                            <label class="input__label input__label--kohana" for="email">
+                                <i class="fa fa-fw uk-icon-envelope icon icon--kohana"></i>
+                                <span class="input__label-content input__label-content--kohana">Email</span>
+                            </label>
+                        </span>
+                    </div>
+                    <div class="space--top-1">
+                        <span class="input input--kohana">
+                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="contact" />
+                            <label class="input__label input__label--kohana" for="email">
+                                <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
+                                <span class="input__label-content input__label-content--kohana">Phone</span>
+                            </label>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="uk-text-center uk-width-1-1@m uk-width-1-2@l">
+                    <div class="container--textarea">
+                        <span class="input input--kohana">
+                            <textarea class="input__field--section-contact input__field input__field--kohana" name="message" id="" cols="30" rows="10"></textarea>
+                            <label class="input__label input__label--kohana" for="message">
+                                <i class="fa fa-fw uk-icon-comment icon icon--kohana"></i>
+                                <span class="input__label-content input__label-content--kohana">Message</span>
+                            </label>
+                        </span>
+                    </div>
+
+                    <div class="uk-inline space--top-2">
+                        <button uk-toggle="target: #appointment-modal" type="button" class="uk-button-primary button button--blue">Book for an appointment</button>
+                        <div uk-dropdown="mode: click"></div>
+                    </div>
+
+                    <div class="space--top-2">
+                        <button type="submit" class="uk-button-primary button button--green">
+                            Submit
+                        </button>
+                    </div>
+
+
+                    <!-- book appointment modal -->
+                    <div id="appointment-modal" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-text-center">
+                                <h2 class="uk-modal-title text--color-blue">Book appointment</h2>
+                                <form id="form-appointment" action="">
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="firstn" />
+                                            <label class="input__label input__label--kohana" for="firstn">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">First name</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="lastn" />
+                                            <label class="input__label input__label--kohana" for="lastn">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">Last name</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="email" />
+                                            <label class="input__label input__label--kohana" for="email">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">Email</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="phone" />
+                                            <label class="input__label input__label--kohana" for="firstname">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">Phone no.:</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="modalDate" />
+                                            <label class="input__label input__label--kohana" for="firstname">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">Appointment Date</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                    <div class="uk-width-1-1@m uk-width-1-1@l">
+                                        <span class="input input--kohana">
+                                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="modalTime" />
+                                            <label class="input__label input__label--kohana" for="firstname">
+                                                <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
+                                                <span class="input__label-content input__label-content--kohana">Appointment Time</span>
+                                            </label>
+                                        </span>
+                                    </div>
+
+                                    <div class="space--top-2">
+                                        <button type="submit" class="uk-button-primary button button--green">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- book appointment modal end -->
+                </div>
+            </div>
+        </form>
+        <!-- form end -->
+    </section>
+    <!-- contact end -->
+
+
+</body>
+<footer>
+    <section class="section section--footer text--white">
+        <div uk-grid class="content">
+            <div class="uk-width-1-1@m uk-width-1-2@m uk-width-1-3@l">
+                <div class="footer--text">
+                    <p>
+                        Sell for Cash PO Box 51530 1921 Florida Ave NW Washington, DC 20009
+                    </p>
+                </div>
+            </div>
+            <div class="uk-width-1-1@m uk-width-1-2@m uk-width-1-3@l">
+                <div class="social-media">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="uk-width-1-1@m uk-width-1-2@m uk-width-1-3@l">
+                <div class="content--terms">
+                    <a href="#terms-modal" uk-toggle>Terms and conditions</a>
+                    <span>|</span>
+                    <a href="#privacy-modal" uk-toggle>Privacy policy</a>
+                </div>
+                <div class="content--copyright space--top-2">
+                    <h5>&copy; 2017 Sell for cash, all rights reserved</h5>
+                </div>
+            </div>
+
+            <!-- terms modal -->
+            <div id="terms-modal" class="uk-flex-top" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <h2 class="uk-modal-title text--color-blue">Terms and conditions</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+
+                </div>
+            </div>
+            <!-- end terms modal-->
+
+            <!-- terms modal -->
+            <div id="privacy-modal" class="uk-flex-top" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <h2 class="uk-modal-title text--color-blue">Privacy policy</h2>
+                    <p>
+                        <p>
+                            <strong> We are committed to protecting your privacy </strong>
+                        </p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, ante a pulvinar accumsan, dui
+                            justo viverra augue, tempor luctus nisi nunc non risus. Nunc luctus, lorem vitae semper commodo,
+                            magna odio ultrices augue, id consectetur felis lectus vel orci. Cras nec rhoncus tellus. Nulla
+                            lectus justo, finibus interdum pharetra vel, commodo et enim. Integer iaculis ullamcorper rutrum.
+                            Morbi vitae diam orci.</p>
+                        <p>
+                            <strong>Information Collected</strong>
+                        </p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, ante a pulvinar accumsan, dui
+                            justo viverra augue, tempor luctus nisi nunc non risus. Nunc luctus, lorem vitae semper commodo,
+                            magna odio ultrices augue, id consectetur felis lectus vel orci. Cras nec rhoncus tellus. Nulla
+                            lectus justo, finibus interdum pharetra vel, commodo et enim. Integer iaculis ullamcorper rutrum.
+                            Morbi vitae diam orci. Phasellus accumsan enim non ante maximus, vitae laoreet ex eleifend. Vivamus
+                            ac dolor mattis, congue elit mollis, accumsan metus. Nam fermentum mollis dapibus. Nulla vulputate
+                            pretium lorem, nec dapibus ante rutrum suscipit. Integer quam massa, rhoncus tristique iaculis
+                            non, ornare in turpis. Suspendisse nulla lacus, ultrices tristique mi eu, dapibus accumsan ligula.
+                            Sed vehicula ornare posuere. In urna libero, dictum id eros ac, gravida aliquam mauris. Phasellus
+                            nec scelerisque turpis, et finibus neque.</p>
+                        <p>
+                            <strong>
+                                Usage of Your Information
+                            </strong>
+                        </p>
+                        <p>
+                            Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna
+                            mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum
+                            nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.
+                            Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                        <p>
+                            <strong>Sale to Third Parties</strong>
+                        </p>
+                        <p> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                            Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus
+                            auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                            mus. Donec sed odio dui.</p>
+                        <p> Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
+                            Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Maecenas sed diam eget
+                            risus varius blandit sit amet non magna.</p>
+
+                    </p>
+
+                </div>
+            </div>
+            <!-- end terms modal-->
+
+        </div>
+    </section>
+    <!-- js scripts -->
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/uikit/js/uikit.min.js"></script>
+    <script src="assets/js/home.js"></script>
+    <script src="assets/plugins/datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+</footer>
+
+</html>
