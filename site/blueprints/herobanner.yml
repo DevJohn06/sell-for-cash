@@ -1,0 +1,57 @@
+title: Herobanner
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+###contet
+  banner_text: 
+    label: Banner text
+    type: text
+  tagline:
+    label: Banner subtext
+    type: text
+###icons
+  icon_items: 
+    label: Icons
+    type: structure
+    modalsize: large
+    style: table
+    fields: 
+      icon: 
+        label: Icon
+        type: text
+        placeholder: home
+        help: >
+          Enter any FontAwesome icon name, like ‘home’, ‘car’ or ‘bolt’ - full list of icons at http://fontawesome.io/icons
+      icon_text:
+        label: Icon text
+        type: text
+        placeholder: Close fast
+###background-image
+  bkg_head:
+   label: Background settings
+   type: headline
+  bkg_img:
+   label: Background image
+   type: image
+   required: true
+   help: > 
+      Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+      automatically resized down and cropped, as needed.
+
+

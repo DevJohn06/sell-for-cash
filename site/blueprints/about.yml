@@ -1,0 +1,57 @@
+title: About
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+  navigation_link: 
+    label: Navigation link
+    type: text
+    icon: font
+    required: true
+    placeholder: About
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'About section'. If you
+        enter two or more words, only the first word will be displayed.
+
+  about_title: 
+    label: About greeting
+    type: text
+    help: > 
+      A title or text for the 'about' section
+    placeholder: What is sell for cash? 
+  
+  about_text: 
+    label: About text
+    type: textarea  
+    help: > 
+      Put a description for 'about' section
+    
+  ###button
+  button_settings:
+    label: Button settings
+    type: headline
+  button_text: 
+    label: Button text
+    type: text 
+    help: >
+      Button won't show if field is empty
+  button_link:
+    type: text
+    help: >
+      If field is empty, the button's function will redirect to
+      the contact section. 

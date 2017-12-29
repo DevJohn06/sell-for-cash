@@ -1,0 +1,65 @@
+title: Herobanner
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+  navigation_link: 
+    label: Navigation link
+    type: text
+    icon: font
+    required: true
+    placeholder: About
+    help: >
+        Enter a word that will appear in the desktop menu to link to the 'About section'. If you
+        enter two or more words, only the first word will be displayed.
+###content
+    services_items 
+      label: Services
+      type: structure
+      modalsize: large
+      entry: > 
+        {{service_title}}
+      fields: 
+        service_title: 
+          label: Service title
+          type: text
+        service_text:
+          label: Service text
+          type: textarea
+          help: >
+            Put a hefty desciption of the service.
+        service_image: 
+          label: Service image
+          type: image
+          help: >
+            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+            automatically resized down and cropped, as needed.
+
+###background-image
+  bkg_head:
+   label: Background settings
+   type: headline
+  bkg_img:
+   label: Background image
+   type: image
+   required: true
+   help: > 
+      Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+      automatically resized down and cropped, as needed.
+
+

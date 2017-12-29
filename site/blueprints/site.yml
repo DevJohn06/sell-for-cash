@@ -1,0 +1,167 @@
+title: Site
+pages: true
+files:
+    sortable: true
+fields:   
+    title:
+        label: Title
+        type:  text
+    contact_headline:
+        label: Contact section
+        type: headline
+    contact_title:
+        label: Contact title
+        type: title
+        placeholder: Contact us! 
+    contact_text: 
+        label: Contact text
+        type: text
+        placeholder: "We'd love to hear from you!"
+    contact_navigation_link: 
+        label: Navigation link
+        type: text
+        icon: font
+        required: true
+        placeholder: Contact
+        help: >
+            Enter a word that will appear in the desktop menu to link to the 'Contact section'.
+            If you enter two or more words, only the first word will be displayed.
+    
+    line2:
+        type: line
+
+    display_email: 
+        label: Display email
+        type: email
+        placeholder: email@email.com
+        help: > 
+            The email that will be displayed on the website.    
+    receiver_email:
+        label: Receiver Email
+        type: email
+        required: true
+        placeholder: email@email.com
+        help: > 
+            The email that will be used as the receiver email of the contact form.
+    subject:
+        label: Email Subject
+        type:  text
+        required: true
+        placeholder: "[Mnwealth website] Message from Mnwealth Website"
+    success_msg:
+        label: Success Message
+        type:  text
+        required: true
+        placeholder: 'Success!'
+        
+#### phone details
+    line2:
+        type: line
+
+    phone: 
+        label: Phone Number for Dialing
+        type: tel
+        width: 1/2 
+        placeholder: +61.2.99999999
+        required: true
+        help: >
+          Enter the phone number exactly as it should be dialed by a mobile phone.
+          Do NOT use spaces, brackets or parenthesis - use dots as separators only.
+    phone_display:
+        label: Phone Number for Display
+        type: tel
+        placeholder: (02) 9999 9999
+        required: true
+        width: 1/2
+        help: >
+          Enter the phone number as it should appear on the website. All characters allowed.
+
+### call-to-action section
+    cta_heading:
+        label: Call-to-action section
+        type: headline
+    cta_text: 
+        label: Call-to-action text
+        type: textarea
+        validate: 
+          maxLength: 140
+        help: >
+            Enter a text enticing the visitors to contact you. Hidden if empty.
+    cta_button_text:
+        label: Call-to-action button text
+        type: text
+        placeholder: "Call us!"
+        help: >
+            Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
+    cta_background:
+        label: Call-to-action backround image
+        type: image
+        help: > 
+            Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+            automatically resized down and cropped, as needed.
+### footer section
+    footer_heading:
+        label: Footer section
+        type: headline
+    terms_title:
+        label: Site terms and condition title
+        type: text
+    terms_text:
+        label: Site terms and condition text
+        type: textarea
+        help: >
+            Enter 'Site terms and conditions' here. Will be hidden if empty.
+    privacy_title:
+        label: Site privacy policy title
+        type: text    
+    privacy_text:
+        label: Site privacy policy text
+        type: textarea
+        help: >
+            Enter 'Site privacy policy' here. Will be hidden if empty.
+    footer_text:
+        label: Footer text
+        type: textarea
+        placeholder: © 2018, Mnwealth - all rights reserved.
+        help: >
+            Enter copyright details.
+
+### social media sharing
+    social_headline:
+        label: Social media
+        type: headline
+    social_info:
+        label: 
+        type: info
+        text: >
+            Put here the links on your social media sites. If texfield is empty,
+            the social media icon will not show.
+    social_facebook:
+        label: Facebook
+        type: text
+        width: 1/2
+        icon: facebook
+    social_twitter: 
+        label: Twitter
+        type: text
+        width: 1/2
+        icon: twitter
+    social_linkedin:
+        label: Linked in
+        type: text
+        width: 1/2 
+        icon: linkedin
+    social_youtube:
+        label: Youtube
+        type: text
+        width: 1/2
+        icon: youtube 
+    social_instagram: 
+        label: Instagram
+        type: text
+        width: 1/2
+        icon: instagram
+
+    
+    
+
