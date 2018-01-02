@@ -9,7 +9,9 @@
     <!-- end herobanner -->
 
     <!-- about us -->
-    <?php snippet('about') ?>
+    <?php
+    $about = $page->children()->find('about');
+    snippet('about', array("data" => $about)); ?>
     <!-- end about us -->
 
     <!-- cta -->

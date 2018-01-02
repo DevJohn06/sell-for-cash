@@ -1,19 +1,22 @@
-<section id="about-us" class="section">
+<section id="section-<?php echo str::slug($data->navigation_link()->toLower()) ?> " class="section">
         <div class="content uk-container">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">
-                    <h1 class="section__header--about">What is sell for cash?</h1>
+                    <h1 class="section__header--about"><?php echo $data->about_title()->title() ?></h1>
                 </div>
                 <div class="uk-width-1-2">
-                    <article class="space--top-3">
-                        <p class="section__text--about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit blanditiis animi facere enim
-                            odit id aperiam, porro laboriosam in eaque saepe quo nam doloremque illo quisquam, vel molestiae
-                            dolorem natus.
-                        </p>
+                    <article class="space--top-3 section__text--about">
+                       <?php echo $data->about_text()->kt(); ?>
                     </article>
+                    <?php if($data->button_text()->isNotEmpty()):; ?>
                     <div class="space--top-2">
-                        <a href="" class="button button--blue uk-button-primary">Contact us!</a>
+                        <a <?php if($data->button_link()->isEmpty()): ?>
+                            href="#section-contact"
+                        <?php else: ?>  
+                            href="<?php echo $data->button_link()->html()?>"
+                        <?php endif ?> class="button button--blue uk-button-primary"><?php echo $data->button_text()->html() ?></a>
                     </div>
+                    <?php endif ?>
                 </div>
             </div>
         </div>
