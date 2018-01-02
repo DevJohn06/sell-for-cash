@@ -23,12 +23,11 @@ fields:
     type: text
     icon: font
     required: true
-    placeholder: About
+    placeholder: Services
     help: >
-        Enter a word that will appear in the desktop menu to link to the 'About section'. If you
-        enter two or more words, only the first word will be displayed.
+        Enter a word that will appear in the desktop menu to link to the 'Services section'.
 ###content
-    services_items 
+  services_items: 
       label: Services
       type: structure
       modalsize: large

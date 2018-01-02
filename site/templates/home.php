@@ -19,7 +19,9 @@
     <!-- end cta -->
 
     <!-- services -->
-    <?php snippet('services') ?>
+    <?php 
+    $services = $page->children()->find('services');
+    snippet('services', array("data"=> $services)) ?>
     <!-- services end -->
 
     <!-- contact -->
