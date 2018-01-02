@@ -1,1 +1,93 @@
 Title: Site Title
+
+----
+
+Contact-title: 
+
+----
+
+Contact-text: 
+
+----
+
+Contact-navigation-link: section-contact
+
+----
+
+Display-email: email@email.com
+
+----
+
+Receiver-email: email@email.com
+
+----
+
+Subject: [sell for cash] sell for cash website
+
+----
+
+Success-msg: Success
+
+----
+
+Phone: +61.2.999999999
+
+----
+
+Phone-display: (02) 9999 999
+
+----
+
+Cta-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+
+----
+
+Cta-button-text: Call us!
+
+----
+
+Cta-background: business-people-office-ss-1920.jpg
+
+----
+
+Terms-title: 
+
+----
+
+Terms-text: 
+
+----
+
+Privacy-title: 
+
+----
+
+Privacy-text: 
+
+----
+
+Footer-text: 
+
+----
+
+Social-facebook: 
+
+----
+
+Social-twitter: 
+
+----
+
+Social-linkedin: 
+
+----
+
+Social-youtube: 
+
+----
+
+Social-instagram: 
+
+----
+
+Cta-button-link: 

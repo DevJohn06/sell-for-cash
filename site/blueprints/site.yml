@@ -77,9 +77,6 @@ fields:
           Enter the phone number as it should appear on the website. All characters allowed.
 
 ### call-to-action section
-    cta_heading:
-        label: Call-to-action section
-        type: headline
     cta_text: 
         label: Call-to-action text
         type: textarea
@@ -91,8 +88,15 @@ fields:
         label: Call-to-action button text
         type: text
         placeholder: "Call us!"
+        width: 1/2
         help: >
-            Enter text that will be used to label your call-to-action button. If field is left empty, the button will be hidden.
+            Button will not show if field is empty
+    cta_button_link:
+        label: Call-to-action button text
+        type: text
+        width: 1/2
+        help: >
+            Button link is set to redirect to the contact section by default.             
     cta_background:
         label: Call-to-action backround image
         type: image
