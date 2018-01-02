@@ -11,8 +11,8 @@ files:
   sanitize: true
   sortable: true
   size: 6000000
-  width: 4000
-  height: 3000
+  width: 6000
+  height: 6000
 fields:
   title:
     label: Title

@@ -1,0 +1,27 @@
+Title: herobanner
+
+----
+
+Banner-text: Sell your home for cash!
+
+----
+
+Tagline: Here's how we do it:
+
+----
+
+Icon-items: 
+
+- 
+  icon: envelope
+  icon_text: Message us
+- 
+  icon: file
+  icon_text: 'Give you an offer </br> within 24 hours'
+- 
+  icon: dollar
+  icon_text: Close fast
+
+----
+
+Bkg-img: 254649_234449179919031_3434662_n.jpg

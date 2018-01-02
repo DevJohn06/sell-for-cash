@@ -1,1 +1,13 @@
 Title: Home
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+
+----
+
+Keywords: House,sell,for,cash
+
+----
+
+Mainimage: business-people-office-ss-1920.jpg
