@@ -1,4 +1,4 @@
-<section id="section-<?php echo str::slug($data->navigation_link()->toLower()) ?> " class="section">
+<section id="section-<?php echo str::slug($data->navigation_link()->toLower())?>" class="section">
         <div class="content uk-container">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">

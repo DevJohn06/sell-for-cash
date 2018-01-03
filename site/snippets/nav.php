@@ -15,13 +15,13 @@
                     <a href="#home">Home</a>
                 </li>
                 <li class="nav__list">
-                    <a href="#about-us">About us</a>
+                    <a href="#section-<?php echo str::slug($page->children()->find('about')->navigation_link()->toLower()); ?>"><?php echo $page->children()->find('about')->navigation_link() ?></a>
                 </li>
                 <li class="nav__list">
-                    <a href="#services">Services</a>
+                    <a href="#section-<?php echo str::slug($page->children()->find('services')->navigation_link()->toLower()); ?>"><?php echo $page->children()->find('services')->navigation_link() ?></a>
                 </li>
                 <li class="nav__list">
-                    <a href="#section-contact">Contact</a>
+                    <a href="#section-<?php echo str::slug($site->contact_navigation_link()->toLower()); ?>"><?php echo $site->contact_navigation_link() ?></a>
                 </li>
             </ul>
         </div>

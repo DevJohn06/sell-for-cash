@@ -1,4 +1,4 @@
-<section id="section-contact" class="section section--contact">
+<section id="section-<?php echo str::slug($site->contact_navigation_link()->toLower()) ?>" class="section section--contact">
         <div class="space--top-4 uk-container">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">

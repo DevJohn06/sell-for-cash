@@ -1,4 +1,4 @@
-<section id="#section-<?php echo str::slug($data->navigation_link()->toLower()); ?>" class="section">
+<section id="section-<?php echo str::slug($data->navigation_link()->toLower()); ?>" class="section">
     <div class="slick-slider">
     <?php $services_items = $data->services_items()->toStructure();
              foreach($services_items as $item):

@@ -25,8 +25,7 @@ fields:
     required: true
     placeholder: About
     help: >
-        Enter a word that will appear in the desktop menu to link to the 'About section'. If you
-        enter two or more words, only the first word will be displayed.
+        Enter a word that will appear in the desktop menu to link to the 'About section'.
 
   about_title: 
     label: About greeting

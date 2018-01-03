@@ -25,7 +25,8 @@ fields:
     required: true
     placeholder: Services
     help: >
-        Enter a word that will appear in the desktop menu to link to the 'Services section'.
+        Enter a word that will appear in the desktop menu to link to the 'Services section'
+        
 ###content
   services_items: 
       label: Services
