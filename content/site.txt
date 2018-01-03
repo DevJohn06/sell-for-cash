@@ -2,7 +2,7 @@ Title: Site Title
 
 ----
 
-Contact-title: 
+Contact-title: Contact us!
 
 ----
 
@@ -10,7 +10,7 @@ Contact-text:
 
 ----
 
-Contact-navigation-link: section-contact
+Contact-navigation-link: Contact
 
 ----
 
@@ -50,31 +50,51 @@ Cta-background: business-people-office-ss-1920.jpg
 
 ----
 
-Terms-title: 
+Terms-title: Terms and conditions
 
 ----
 
-Terms-text: 
+Terms-text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
 
 ----
 
-Privacy-title: 
+Privacy-title: Privacy policy
 
 ----
 
 Privacy-text: 
 
+**We are committed to protecting your privacy**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, ante a pulvinar accumsan, dui justo viverra augue, tempor luctus nisi nunc non risus. Nunc luctus, lorem vitae semper commodo, magna odio ultrices augue, id consectetur felis lectus vel orci. Cras nec rhoncus tellus. Nulla lectus justo, finibus (link: https://www.facebook.com/ text: interdum) pharetra vel, commodo et enim. Integer iaculis ullamcorper rutrum. *Morbi* vitae diam orci. 
+
+**Information Collected**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, ante a pulvinar accumsan, dui justo viverra augue, tempor luctus nisi nunc non risus. Nunc luctus, lorem vitae semper commodo, magna odio ultrices augue, id consectetur felis lectus vel orci. Cras nec rhoncus tellus. Nulla lectus justo, finibus interdum pharetra vel, commodo et enim. Integer iaculis ullamcorper rutrum. Morbi vitae diam orci. Phasellus accumsan enim non ante maximus, vitae laoreet ex eleifend. Vivamus ac dolor mattis, congue elit mollis, accumsan metus. Nam fermentum mollis dapibus. Nulla vulputate pretium lorem, nec dapibus ante rutrum suscipit. Integer quam massa, rhoncus tristique iaculis non, ornare in turpis. Suspendisse nulla lacus, ultrices tristique mi eu, dapibus accumsan ligula. Sed vehicula ornare posuere. In urna libero, dictum id eros ac, gravida aliquam mauris. Phasellus nec scelerisque turpis, et finibus neque.
+
+**Usage of Your Information**
+
+Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+
+**Sale to Third Parties**
+
+Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui.
+
+Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
 ----
 
-Footer-text: 
+Footer-text: &copy; 2017 Sell for cash, all rights reserved
 
 ----
 
-Social-facebook: 
+Social-facebook: Facebook
 
 ----
 
-Social-twitter: 
+Social-twitter: twitter
 
 ----
 
@@ -82,12 +102,16 @@ Social-linkedin:
 
 ----
 
-Social-youtube: 
+Social-youtube: youtube
 
 ----
 
-Social-instagram: 
+Social-instagram: ss
 
 ----
 
 Cta-button-link: 
+
+----
+
+Mailing-address: Sell for Cash PO Box 51530 1921 Florida Ave NW Washington, DC 20009

@@ -3,18 +3,19 @@
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-2">
                     <h1 class="section__header--contact">
-                        Contact us
+                        <?php echo $site->contact_title()->title(); ?>
                     </h1>
                 </div>
                 <div class="uk-width-1-2 align-right">
                     <div>
-                        <a href="#" class="section__info">
-                            202-869-4330
+                    
+                        <a href="tel:<?php echo $site->phone()?>" class="section__info">
+                            <?php echo $site->phone_display()->html()?>
                         </a>
                     </div>
                     <div>
-                        <a href="" class="section__info">
-                            info@sellforcash.com
+                        <a href="mailto:<?php echo $site->display_email(); ?>" class="section__info">
+                            <?php echo $site->display_email()->html(); ?>
                         </a>
                     </div>
                 </div>

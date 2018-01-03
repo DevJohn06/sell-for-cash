@@ -40,6 +40,8 @@ fields:
         service_text:
           label: Service text
           type: textarea
+          validate:
+            maxLength: 300
           help: >
             Put a hefty desciption of the service.
         service_image: 

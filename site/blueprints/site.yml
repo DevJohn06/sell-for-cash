@@ -10,13 +10,9 @@ fields:
         label: Contact section
         type: headline
     contact_title:
-        label: Contact title
+        label: Contact section title
         type: title
         placeholder: Contact us! 
-    contact_text: 
-        label: Contact text
-        type: text
-        placeholder: "We'd love to hear from you!"
     contact_navigation_link: 
         label: Navigation link
         type: text
@@ -29,7 +25,10 @@ fields:
     
     line2:
         type: line
-
+    
+    mailing_address: 
+        label: Mailing address 
+        type: textarea
     display_email: 
         label: Display email
         type: email
@@ -92,7 +91,7 @@ fields:
         help: >
             Button will not show if field is empty
     cta_button_link:
-        label: Call-to-action button text
+        label: Call-to-action button link
         type: text
         width: 1/2
         help: >
@@ -126,7 +125,7 @@ fields:
     footer_text:
         label: Footer text
         type: textarea
-        placeholder: © 2018, Mnwealth - all rights reserved.
+        placeholder: © 2018, Sell for cash - all rights reserved.
         help: >
             Enter copyright details.
 
