@@ -17,6 +17,23 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'put your license key here');
 c::set('debug',true);
+
+
+c::set('routes', array(
+    array(
+      // 'pattern' is the url being called from our form's ajax javascript function
+      'pattern'=> 'api/hform',
+      'method' => 'POST',
+      'action' => function() {
+        // check whether this is an ajax request, and respond with an error if it isn't
+        //if(!kirby()->request()->ajax()){ return response::error("Page Not Found!","404");}
+        // process the form data, send the email - and get the result (as an array)
+        $data = hmailFormData(kirby()->request()->data());
+        // respond with the result - in JSON format
+        return response::json($data);
+        }
+      )
+  ));
 /*
 
 ---------------------------------------

@@ -22,14 +22,14 @@
             </div>
         </div>
         <!-- form start -->
-        <form class="form--contact" action="">
+        <form id="form-contact" class="form--contact" action="">
             <div class="uk-grid-large" uk-grid>
                 <div class="uk-width-1-1@m uk-width-1-2@l content--center">
                     <div class="uk-grid-collapse" uk-grid>
                         <div class="uk-width-1-2@m uk-width-1-2@l">
                             <span class="input input--kohana">
-                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="firstname" />
-                                <label class="input__label input__label--kohana" for="firstname">
+                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="cfirstname" />
+                                <label class="input__label input__label--kohana" for="cfirstname">
                                     <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
                                     <span class="input__label-content input__label-content--kohana">Name</span>
                                 </label>
@@ -37,8 +37,8 @@
                         </div>
                         <div class="uk-width-1-2@m uk-width-1-2@l">
                             <span class="input input--kohana">
-                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="lastname" />
-                                <label class="input__label input__label--kohana" for="lastname">
+                                <input class="input__field--section-contact input__field input__field--kohana" type="text" id="clastname" />
+                                <label class="input__label input__label--kohana" for="clastname">
                                     <i class="fa fa-fw uk-icon-user icon icon--kohana"></i>
                                     <span class="input__label-content input__label-content--kohana">Last name</span>
                                 </label>
@@ -47,8 +47,8 @@
                     </div>
                     <div class="space--top-2">
                         <span class="input input--kohana">
-                            <input class="input__field--section-contact input__field input__field--kohana" type="email" id="email" />
-                            <label class="input__label input__label--kohana" for="email">
+                            <input class="input__field--section-contact input__field input__field--kohana" type="email" id="cemail" />
+                            <label class="input__label input__label--kohana" for="cemail">
                                 <i class="fa fa-fw uk-icon-envelope icon icon--kohana"></i>
                                 <span class="input__label-content input__label-content--kohana">Email</span>
                             </label>
@@ -56,8 +56,8 @@
                     </div>
                     <div class="space--top-1">
                         <span class="input input--kohana">
-                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="contact" />
-                            <label class="input__label input__label--kohana" for="email">
+                            <input class="input__field--section-contact input__field input__field--kohana" type="text" id="cphone" />
+                            <label class="input__label input__label--kohana" for="cphone">
                                 <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
                                 <span class="input__label-content input__label-content--kohana">Phone</span>
                             </label>
@@ -68,8 +68,8 @@
                 <div class="uk-text-center uk-width-1-1@m uk-width-1-2@l">
                     <div class="container--textarea">
                         <span class="input input--kohana">
-                            <textarea class="input__field--section-contact input__field input__field--kohana" name="message" id="" cols="30" rows="10"></textarea>
-                            <label class="input__label input__label--kohana" for="message">
+                            <textarea class="input__field--section-contact input__field input__field--kohana" name="cmessage" id="" cols="30" rows="10"></textarea>
+                            <label class="input__label input__label--kohana" for="cmessage">
                                 <i class="fa fa-fw uk-icon-comment icon icon--kohana"></i>
                                 <span class="input__label-content input__label-content--kohana">Message</span>
                             </label>

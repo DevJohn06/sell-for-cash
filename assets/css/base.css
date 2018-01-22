@@ -25,7 +25,117 @@
     src: url('../font/Raleway-Light.ttf');
 }
 
+/* end custom fonts */
 
+/* media queries */
+@media only screen and (max-width:500px) {
+    .section--about {
+        margin: 10% auto;
+    }
+}
+@media only screen and (max-width:640px) {
+    .hide-small { 
+        display: none !important;
+    }
+    .header--herotitle{
+        font-size: 3rem;
+    }
+
+    .header--subtitle{
+        font-size: 1.5rem;
+    }
+
+    .span--herobanner {
+        font-size: 13px;
+    }
+
+    .section__header--about {
+        margin: auto 5%;
+        font-size: 63px !important;
+    }
+
+    .section__text--about-container{
+        padding: 0px !important;
+        margin: -13px 5%;
+    }
+
+    #button-about {
+        font-size: 15px;
+    }
+
+    .section__inner--services {
+        margin: 8%;
+    }
+
+    .section__header--services {
+        font-size: 40px;
+    }
+
+    .section__text--services {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    .hide-medium {
+        display: none !important;
+    }
+
+    .nav {
+        padding-top: 45px !important;
+    }
+
+    .icon--content {
+        width: 100%;
+    }
+
+    .icon--herobanner {
+        font-size: 35px !important;
+    }
+
+    .section--herobanner {
+        height: 100% !important;
+        padding-bottom: 30px;
+    }
+
+    .section__header--about {
+       font-size: 100px;
+    }
+
+    .section__text--about {
+        font-size: 20px;
+    }
+
+    .header--cta {
+        margin: 5px 15px;
+        font-size: 2rem;
+    }
+
+    #button--cta {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hide-large {
+        display: none !important;
+    }
+    .section--herobanner {
+        height: 100% !important;
+        padding: 30;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .hide-xlarge {
+        display: none !important;
+    }
+    .section--herobanner {
+        height: 100vh;
+    }
+}
+/* end media queries */
 h1,h2,h3,h4,h5 {
     font-family: raleway-semibold;
 }
@@ -64,7 +174,9 @@ a:hover{
     margin: 0 auto;
 }
 
-
+.section__content--services {
+    min-height: 450px;
+}
 /* content */
 
 .content {
@@ -236,6 +348,9 @@ a:hover{
     transition: all .5s;
 }
 /* section */
+.section--about {
+    margin: 10px auto;
+}
 .section__info {
     color: #336EB5;
     font-family: raleway-semibold;
@@ -257,6 +372,11 @@ a:hover{
 .section__inner--services {
     filter: saturate(100%);
     -webkit-filter: saturate(100%);
+    margin: 5%;
+}
+
+.section__text--about-container{
+    margin: -13px 5%;
 }
 /* end section*/
 
@@ -292,6 +412,11 @@ a:hover{
     font-size: 5em;
     font-family: raleway-semibold;
     color: #336EB5;
+}
+
+.form__container
+{
+    text-align: center;
 }
 
 .form--contact
@@ -380,3 +505,56 @@ a:hover{
     margin: 10px 20px;
 }
 /* end modal */
+
+/* responsive */
+
+#mobile-menu {
+    display: inline-block;
+}
+
+#mobile-nav {
+    height: 100vh;
+    background-color: #9FD813;
+    top: 0px;
+    position: fixed;
+    padding: 18px 0 0 0;
+    z-index: 99;
+}
+
+#mobile-nav ul {
+    list-style: none;
+    padding-top: 150px;
+    padding-left: 3px;
+}
+
+
+#mobile-nav ul li  {
+    padding: 10px;
+    font-family: raleway-bold;
+    text-transform: uppercase;   
+}
+
+#mobile-nav ul li > a  {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;  
+    transition: all .4s ease;
+}
+
+#mobile-nav ul li > a:hover  {
+    color: #25ABD1;
+}
+
+.toggle--icon {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    right: 22px;
+    top: 10px;
+    transition: all 0.4s ease;
+}
+
+.hamburger:hover {
+    color: #336EB5;
+}
+/* end responsive */

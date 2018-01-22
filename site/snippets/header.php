@@ -37,4 +37,11 @@
 
 <body>
 
-    <?php snippet('nav') ?>
+<?php 
+$about = $page->children()->find('about');
+$services = $page->children()->find('services');
+
+snippet('nav', array(
+  "data_about" => $about,
+  "data_services" => $services
+)) ?>

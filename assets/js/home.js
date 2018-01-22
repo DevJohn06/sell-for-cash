@@ -62,19 +62,19 @@ $(document).ready(function () {
     autoplaySpeed: 3000
   });
 
- // datetimepicker js
- $('#modalTime').datetimepicker({
-	datepicker:false,
-	format:'H:i',
-	step:5
-});
-$('#modalDate').datetimepicker({
-	lang:'ch',
-	timepicker:false,
-	format:'m/d/Y',
-	formatDate:'Y/m/d',
-	minDate:'-2017/12/01', // yesterday is minimum date
-	maxDate:'+2040/01/02' // and tommorow is maximum date calendar
-});
+  // datetimepicker js
+  $('#modalTime').datetimepicker({
+    datepicker: false,
+    format: 'H:i',
+    step: 5
+  });
+  $('#modalDate').datetimepicker({
+    lang: 'ch',
+    timepicker: false,
+    format: 'm/d/Y',
+    formatDate: 'Y/m/d',
+    minDate: '-2017/12/01', // yesterday is minimum date
+    maxDate: '+2040/01/02' // and tommorow is maximum date calendar
+  });
 
 });

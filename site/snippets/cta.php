@@ -8,7 +8,7 @@
                 </div>
                 <div class="space--top-2">
                  <?php if($site->cta_button_text()->isNotEmpty()): ?>
-                    <a
+                    <a id="button--cta"
                      <?php if($site->cta_button_link()->isEmpty()): ?>
                         href="#section-contact" 
                      <?php else: ?>

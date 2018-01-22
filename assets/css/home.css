@@ -1,5 +1,5 @@
 .section--herobanner{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
@@ -46,6 +46,7 @@
     font-size: 140px;
     color: #336EB5;
     font-family: raleway-bold;
+    margin: auto 5%;
 }
 
 .section__text--about {
@@ -58,8 +59,8 @@
 .header--cta {
     position: relative;
     color: white;
-    z-index: 100;
-    font-size: 5rem;
+    z-index: 90;
+    font-size: 3rem;
 }
 
 .section--cta {
@@ -81,6 +82,8 @@
     font-size: 25px;
     font-family: raleway-semibold;
     color: black;
+    word-wrap: break-word;
+    padding-right: 20px;
 }
 
 /* footer */
