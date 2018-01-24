@@ -74,6 +74,14 @@
     .section__text--services {
         font-size: 20px;
     }
+
+    .section__info a {
+        font-size: 25px !important;
+    }
+
+    .section__header--contact {
+        font-size: 50px !important;
+    }
 }
 
 
@@ -114,6 +122,30 @@
 
     #button--cta {
         font-size: 15px;
+    }
+
+    .section__info {
+        text-align:center !important;
+    }
+
+    .section__header--contact {
+        text-align: center !important;
+    }
+
+    .mobile--space {
+        padding-top: 0px !important;
+    }
+    
+    .mobile__input-phone {
+        margin-top: 0px !important;
+    }
+
+    .section--footer {
+        text-align: center;
+    }
+
+    .footer--text {
+        margin: 0 auto;
     }
 }
 
@@ -351,15 +383,20 @@ a:hover{
 .section--about {
     margin: 10px auto;
 }
+
 .section__info {
+text-align: right;
+}
+
+.section__info a {
     color: #336EB5;
     font-family: raleway-semibold;
-    text-align: right;
     font-size: 40px;
     transition: all 0.4s ease;
 }
 
-.section__info:hover {
+
+.section__info a:hover {
     color: #9FD813;
 }
 
@@ -379,12 +416,6 @@ a:hover{
     margin: -13px 5%;
 }
 /* end section*/
-
-
-.align-right {
-    text-align: right;
-}
-
 
 /* social icons */
 .social-icons {

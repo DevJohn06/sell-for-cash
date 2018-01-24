@@ -1,20 +1,19 @@
 <section id="section-<?php echo str::slug($site->contact_navigation_link()->toLower()) ?>" class="section section--contact">
         <div class="space--top-4 uk-container">
-            <div class="uk-grid-large" uk-grid>
-                <div class="uk-width-1-2">
+            <div class="uk-grid-collapse" uk-grid>
+                <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s">
                     <h1 class="section__header--contact">
                         <?php echo $site->contact_title()->title(); ?>
                     </h1>
                 </div>
-                <div class="uk-width-1-2 align-right">
+                <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s align-right section__info">
                     <div>
-                    
-                        <a href="tel:<?php echo $site->phone()?>" class="section__info">
+                        <a href="tel:<?php echo $site->phone()?>">
                             <?php echo $site->phone_display()->html()?>
                         </a>
                     </div>
                     <div>
-                        <a href="mailto:<?php echo $site->display_email(); ?>" class="section__info">
+                        <a href="mailto:<?php echo $site->display_email(); ?>">
                             <?php echo $site->display_email()->html(); ?>
                         </a>
                     </div>
@@ -23,7 +22,7 @@
         </div>
         <!-- form start -->
         <form id="form-contact" class="form--contact" action="">
-            <div class="uk-grid-large" uk-grid>
+            <div class="uk-grid-collapse" uk-grid>
                 <div class="uk-width-1-1@m uk-width-1-2@l content--center">
                     <div class="uk-grid-collapse" uk-grid>
                         <div class="uk-width-1-2@m uk-width-1-2@l">
@@ -45,7 +44,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="space--top-2">
+                    <div class="space--top-2 mobile--space">
                         <span class="input input--kohana">
                             <input class="input__field--section-contact input__field input__field--kohana" type="email" id="cemail" />
                             <label class="input__label input__label--kohana" for="cemail">
@@ -54,8 +53,8 @@
                             </label>
                         </span>
                     </div>
-                    <div class="space--top-1">
-                        <span class="input input--kohana">
+                    <div class="space--top-1 mobile--space">
+                        <span class="input input--kohana mobile__input-phone">
                             <input class="input__field--section-contact input__field input__field--kohana" type="text" id="cphone" />
                             <label class="input__label input__label--kohana" for="cphone">
                                 <i class="fa fa-fw uk-icon-phone icon icon--kohana"></i>
