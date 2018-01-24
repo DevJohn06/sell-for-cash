@@ -1,0 +1,31 @@
+title: Help
+icon: question-circle
+pages: false
+options:
+  url: false
+  delete: false
+  status: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+  help_heading:
+    label: Help Page
+    type: headline
+
+  help_title: 
+    label: Help title
+    type: text 
+  help_text: 
+    label: Help text
+    type: textarea
+    help: >
+        Put help text inside this area. You can also add download links and images.
+  

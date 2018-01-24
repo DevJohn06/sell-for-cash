@@ -415,6 +415,21 @@ text-align: right;
 .section__text--about-container{
     margin: -13px 5%;
 }
+
+.section__error {
+    height: 100vh;
+}
+
+.error-container {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.section__help {
+    margin: 100px;
+}
+
+
 /* end section*/
 
 /* social icons */

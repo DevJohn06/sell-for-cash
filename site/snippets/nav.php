@@ -1,4 +1,5 @@
-    <!-- nav -->
+     <!-- nav -->
+     <?php if($page->isHomePage()) {?>
     <nav class="uk-navbar-container nav" uk-scrollspy="cls:nav--transparent" uk-navbar>
         <div class="uk-navbar-left hide-small hide-medium">
             <ul class="uk-navbar-nav nav__ul--left">
@@ -10,6 +11,8 @@
             </ul>
         </div>
         
+        
+ 
         <div class="uk-navbar-right hide-small hide-medium">
             <ul class="uk-navbar-nav nav__ul nav__ul--right" uk-scrollspy-nav="closest: li; scroll:true; offset:40; overflow:false;">
                 <li class="nav__list">
@@ -31,7 +34,6 @@
        <a href="#mobile-menu" class="tick-mobile toggle--icon" hidden uk-toggle="target: .tick-mobile; animation: uk-animation-fade"><i class="fa fa-times"></i></a>
     </nav>
 
-<?php if($page->isHomePage()) {?>
     <section id="mobile-nav" class="tick-mobile uk-text-center uk-width-1-1" hidden>
         <ul>
             <li><a class="menu-link" href="#home" uk-toggle="target: .tick-mobile; animation: uk-animation-fade">Home</a></li>
